@@ -10,6 +10,8 @@ This work aims to tackle key challenges in BCI applications, including **data sc
 
 ## Applications  
 The proposed approaches are effective for **motor imagery (MI)**, **P300**, and **SSVEP**, especially when significant individual difference exists. DWTaug and HHTaug demonstrate remarkable efficacy in SSVEP paradigm, particularly when applied to the Benchmark dataset, significantly enhancing classification accuracy by exceeding 10% compared to conventional approaches.
+<img width="970" alt="image" src="https://github.com/user-attachments/assets/cfdb26e9-fb84-405f-a3dc-e8214109b308" />
+
 
 ## Results  
 The proposed methods have been tested on **17 EEG datasets** across multiple BCI paradigms, consistently outperforming existing data augmentation approaches.  
