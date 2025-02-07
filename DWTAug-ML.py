@@ -28,9 +28,9 @@ wavename = 'db4'
 
 # Signal decomposition
 Cs = pywt.wavedec(Xs, wavename, level=4)
-ScA, ScD4, ScD3, ScD2, ScD1 = Cs[0], Cs[1], Cs[2], Cs[3], Cs[4]  # 4级
+ScA, ScD4, ScD3, ScD2, ScD1 = Cs[0], Cs[1], Cs[2], Cs[3], Cs[4]  # Level 4 (Optional)
 Ct = pywt.wavedec(X_tar_t, wavename, level=4)
-TcA, TcD4, TcD3, TcD2, TcD1 = Ct[0], Ct[1], Ct[2], Ct[3], Ct[4]  # 4级
+TcA, TcD4, TcD3, TcD2, TcD1 = Ct[0], Ct[1], Ct[2], Ct[3], Ct[4]  # Level 4 (Optional)
 
 # Cross-subject sub-signal reassembling and time domain reconstruction
 Xs_aug = pywt.waverec([ScA, TcD4, TcD3, TcD2, TcD1], wavename, 'smooth')  # Src approximated component + Tar detailed component
