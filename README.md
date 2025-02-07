@@ -1,6 +1,6 @@
-# Time-Frequency Transform-Based Cross-Subject EEG Data Augmentation  
+# Time-Frequency Transform Based Cross-Subject EEG Data Augmentation  
 
-This repository contains the original Python code for our paper [**Time-Frequency Transform-Based Cross-Subject EEG Data Augmentation**](https://www.sciencedirect.com/science/article/pii/S0950705125001212) (KBS, 2025), featuring three key implementations:  
+This repository contains the original Python code for our paper [**Time-Frequency Transform Based Cross-Subject EEG Data Augmentation**](https://www.sciencedirect.com/science/article/pii/S0950705125001212) (KBS, 2025), featuring three key implementations:  
 - **DWTaug**: Discrete Wavelet Transform-based EEG data augmentation.  
 - **HHTaug**: Hilbert-Huang Transform-based EEG data augmentation.  
 - **DWTaug-ML**: A multi-level version of DWTaug.
