@@ -13,12 +13,16 @@ The proposed approaches are effective for **motor imagery (MI)**, **P300**, and 
 
 ## Results  
 The proposed methods have been tested on **17 EEG datasets** across multiple BCI paradigms, consistently outperforming existing data augmentation approaches.
+
 <img width="970" alt="image" src="https://github.com/user-attachments/assets/cfdb26e9-fb84-405f-a3dc-e8214109b308" />
 
 ## Visualizations 
 (1) Visualizations of EEG trials before (blue lines) and after (orange lines) ten different data augmentation approaches:
+
 <img width="701" alt="image" src="https://github.com/user-attachments/assets/a55d7dbf-3c07-4bab-b309-bb69cfdcda2f" />
+
 (2)  $t$-SNE feature visualizations of the original, DWTaug, and HHTaug data from the source and target subjects on four MI datasets.
+
 <img width="653" alt="image" src="https://github.com/user-attachments/assets/33fc7789-aedc-4194-b6c6-87b69c00c88e" />
 
 ## Citation
