@@ -40,3 +40,6 @@ If you find this repo helpful, please cite our work:
   volume={311}
 }
 ```
+
+## Contact
+For any questions or collaborations, please feel free to reach out via **vivi@hust.edu.cn** or open an issue in this repository.
