@@ -10,6 +10,7 @@ coding:utf-8
 
 import numpy as np
 import pywt
+from alg_utils import EA
 
 # Xs: The training data from each source subject
 # X_tar_t: The training data from target subject
