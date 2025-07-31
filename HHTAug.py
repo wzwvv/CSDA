@@ -9,6 +9,7 @@ coding:utf-8
 '''
 
 import numpy as np
+from alg_utils import EA, HHTFilter
 
 # Xs: The training data from each source subject
 # X_tar_t: The training data from target subject
