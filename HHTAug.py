@@ -45,6 +45,8 @@ for s in range(X_tar_t.shape[0]):  # X_tar_t.shape[0]
     chnt = np.array(chnt)
     Xs_aug.append(chns)
     Xt_aug.append(chnt)
+Xs_aug = np.array(Xs_aug)
+Xt_aug = np.array(Xt_aug)
 
 # Expand the training set: Final = [Original Xs & Augmented Xs & Augmented Xt]
 Xs = np.concatenate((Xs, Xt_aug[:, :, :Xs.shape[-1]], Xs_aug[:, :, :Xs.shape[-1]]), axis=0)
