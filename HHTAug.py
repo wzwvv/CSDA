@@ -22,6 +22,8 @@ if align:
     Xs = EA(Xs)
     X_tar_t = EA(X_tar_t)
 
+Xs_aug = []
+Xt_aug = []
 # HHTAug is performed on channel-level (different from DWTAug)
 for s in range(X_tar_t.shape[0]):  # X_tar_t.shape[0]
     chns = []
