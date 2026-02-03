@@ -1,11 +1,11 @@
 '''
-=================================================
+===========================================================================================================
 coding:utf-8
 @Time:      2026/2/4 01:43
 @File:      DWTaug-reverse.py
 @Author:    Ziwei Wang
-@Function:  DWTaug-reverse augments EEG signals by three times
-=================================================
+@Function:  DWTaug-reverse augments EEG signals by three times, a more effective implementation of DWTaug.
+===========================================================================================================
 '''
 
 import numpy as np
