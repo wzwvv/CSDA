@@ -1,9 +1,13 @@
 # Time-Frequency Transform Based Cross-Subject EEG Data Augmentation  
 
+📰 News: We've released a new version of DWTaug, namely DWTaug-reverse, which is more effective for within-subject data augmentation. By reverse the inputs, DWTaug-reverse augments EEG signals by three times. More information can see in [code](https://github.com/wzwvv/CSDA/blob/main/DWTaug-reverse.py).
+
+
 This repository contains the original Python code for our paper [**Time-Frequency Transform Based Cross-Subject EEG Data Augmentation**](https://www.sciencedirect.com/science/article/pii/S0950705125001212) (KBS, 2025), featuring three key implementations:  
 - **DWTaug**: Discrete Wavelet Transform-based EEG data augmentation.  
 - **HHTaug**: Hilbert-Huang Transform-based EEG data augmentation.  
 - **DWTaug-ML**: A multi-level version of DWTaug.
+- **DWTaug-reverse**: A more effective way of implementation, for the within-subject scenario.
 
 <img width="908" alt="image" src="https://github.com/user-attachments/assets/92343b72-8a22-4075-91fe-9765f0f8955f" />
 
